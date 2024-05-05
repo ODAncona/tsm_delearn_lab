@@ -1,5 +1,7 @@
 # Practical Work 8
 
+Olivier D'Ancona & Magali Egger
+
 ## Exercice 1
 
 The objective was to explore the performance of a deep VGGNet-inspired CNN on the CIFAR10 dataset.
