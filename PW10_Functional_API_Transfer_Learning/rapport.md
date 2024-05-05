@@ -1,5 +1,7 @@
 # Report - Functional API and Transfer Learning
 
+Olivier D'Ancona & Magali Egger
+
 ## Exercice 1 - Functional API
 
 ### Introduction
@@ -49,3 +51,5 @@ The following models were implemented and compared:
 ### Conclusion
 
 The transformation from a Sequential to a Functional API model was successful, with no loss in performance, validating the flexibility of the Functional API. The experiences with multiple paths and features were insightful, but the models did not outperform the Sequential or Functional API models. Further experimentation and tuning are required to optimize these architectures. Furthermore, this is surprising that the scores are so low when we compare with the previous lab.
+
+## Exercice 2 - Transfer Learning
