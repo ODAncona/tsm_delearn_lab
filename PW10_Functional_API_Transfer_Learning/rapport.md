@@ -50,6 +50,30 @@ The following models were implemented and compared:
 
 ### Conclusion
 
-The transformation from a Sequential to a Functional API model was successful, with no loss in performance, validating the flexibility of the Functional API. The experiences with multiple paths and features were insightful, but the models did not outperform the Sequential or Functional API models. Further experimentation and tuning are required to optimize these architectures. Furthermore, this is surprising that the scores are so low when we compare with the previous lab.
+The transformation from a Sequential to a Functional API model was successful, with no loss in performance, validating the flexibility of the Functional API. The experiences with multiple paths and features were insightful, but the models did not outperform the Sequential or Functional API models. Further experimentation and tuning are required to optimize these architectures. Furthermore, this is surprising that the scores are so low when we compare with the previous lab. We think that could be due to data augmentation that distorts the images too much. In a future experiment, we could try to run the notebook without data augmentation to see if the scores are better. However, a sure thing is that the data augmentation is useful to avoid overfitting as seen on the graph in the notebook.
 
 ## Exercice 2 - Transfer Learning
+
+a) Review the lecture slides on using Keras for a transfer learning task.
+
+=> Done
+b) Chose one of the architecture presented here : <https://keras.io/applications/>. Be-
+ware that some architectures are using large memory and lots of cpu (so better move to
+gpu) !
+
+=> We chose the EfficientNetV2B0 architecture as it is the best ratio between performance and low weight.
+
+c) Download the provided notebook ex2_transfer_learning_stud.ipynb.
+
+=> Done
+
+d) Implement the preprocessing and the training phases.
+
+=> Done following the tutorial
+
+e) Experiment with one or several architectures with diﬀerent classiﬁcation heads (hidden
+layers, ...).
+
+f) Describe the results in your report which architecture and parameters works best
+
+We were unable to test further, due to a lack of time and problem with tensorflow_datasets. However, we did run the notebook in the colaboratory and it worked fine. We could try to download the dataset from another source in a future experiment.
