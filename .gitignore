@@ -163,3 +163,4 @@ data
 logs
 runs
 tb_logs
+UCI_HAR_Dataset
